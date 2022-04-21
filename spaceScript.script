@@ -1,0 +1,49 @@
+// Instruction Sets
+// Serial - Runs each instruction synchrounously and will move on to the next set when all are completed
+// Parallel - Runs each instruction in the set simultaneously and will move on to the next set when all are completed
+// Async - Runs each instruction in the set simultaneously and will run in the background regardless of completion
+//
+// Instruction format
+// MoveToSpeed - Moves to a location at a fixed speed : ARGUMENTS string GameObjectHandle, float xDestination, float yDestination, float zDestination, float speed
+// MoveToTime - Moves to a loction in an amount of time : ARGUMENTS string GameObjectHandle, float xDestination, float yDestination, float zDestination, float seconds
+// RotateSpeed - Changes orientation at a fixed speed : ARGUMENTS string GameObjectHandle, float xAngle, float yAngle, float zAngle, float xAngleIncrement, float yAngleIncrement, float zAngleIncrement
+// RotateTime - Changed orientation in an amount of time : ARGUMENTS string GameObjectHandle, float xAngle, float yAngle, float zAngle, float seconds
+// Follow - Follows another game object for an amount of time : ARGUMENTS string GameObjectHandle, string FollowHandle, float followDistance, float followSpeed, float followOffsetX, float followOffsetY, float followOffsetZ, float followDurationSeconds (-1.0 for infinite time) 
+// FollowCircle - Moves in a circle : ARGUMENTS string GameObjectHandle, float centerX, float centerY, float centerZ, float speed, float radius, int startAngle, int endAngle, bool vertical
+// AABBTrigger - Runs a given instruction when a game object arrives in the specified bounding box : ARGUMENTS string GameObjectHandle, string AABBHandle, Instruction instruction
+
+SerialStart
+	RotateSpeed | CargoDoor, -70.0, 0.0, 0.0, -0.2, 0.0, 0.0
+SerialEnd
+AsyncStart
+	MoveToSpeed | Jet1, -18.3, -42.0, -7000.0, 100.0
+	MoveToSpeed | Jet2, 19.0, -42.0, -7000.0, 100.0
+	MoveToSpeed | Jet3, 1.7, -42.0, -7000.0, 100.0
+	MoveToSpeed | Jet4, -17.3, -42.0, -7000.0, 100.0
+	MoveToSpeed | Jet5, -17.3, -42.0, -7000.0, 100.0
+	MoveToSpeed | Jet6, 0.7, -42.0, -7000.0, 100.0
+	MoveToSpeed | Jet7, 18.7, -42.0, -7000.0, 100.0
+	MoveToSpeed | Jet8, 18.7, -42.0, -7000.0, 100.0
+	MoveToSpeed | Jet9, -0.3, -42.0, -7000.0, 100.0
+AsyncEnd
+ParallelStart
+	RotateSpeed | EFRR, 30.0, 0.0, 0.0, 0.2, 0.0, 0.0
+	RotateSpeed | EFRL, 30.0, 0.0, 0.0, 0.2, 0.0, 0.0
+	RotateSpeed | EBKR, 30.0, 0.0, 0.0, 0.2, 0.0, 0.0
+	RotateSpeed | EBKL, 30.0, 0.0, 0.0, 0.2, 0.0, 0.0
+	RotateSpeed | CargoDoor, 70.0, 0.0, 0.0, 0.1, 0.0, 0.0
+ParallelEnd
+AsyncStart
+	MoveToTime | ShipHull, 0.0, 0.0, 6000.0, 30.0
+	FollowCircle | Ship4, -143.5, -15.0, 2962.0, 150.0, 2000.0, 210, 90, false
+	Follow | Ship2, ShipHull, 800.0, 100.0, -300.0, 0.0, 0.0, -1.0
+	Follow | Ship3, ShipHull, 800.0, 100.0, 300.0, 0.0, 0.0, -1.0
+//	Follow | Camera, ShipHull, 1500.0, 100.0, 0.0, 0.0, 0.0, -1.0
+	FollowWaypoints | Ship1, 100.0, 1630.0, -104.0, 2352.0, 1630.0, -104.0, 3400.0, 600.0, -104.0, 8854.0
+	AABBTrigger | ShipHull, ArrivalArea, RotateSpeed | EFRR, -30.0, 0.0, 0.0, -0.2, 0.0, 0.0
+	AABBTrigger | ShipHull, ArrivalArea, RotateSpeed | EFRL, -30.0, 0.0, 0.0, -0.2, 0.0, 0.0
+	AABBTrigger | ShipHull, ArrivalArea, RotateSpeed | EBKR, -30.0, 0.0, 0.0, -0.2, 0.0, 0.0
+	AABBTrigger | ShipHull, ArrivalArea, RotateSpeed | EBKL, -30.0, 0.0, 0.0, -0.2, 0.0, 0.0
+AsyncEnd
+
+

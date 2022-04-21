@@ -1,0 +1,1161 @@
+Scene: Untitled
+Camera:
+  Position: [-34.7057533, 131.802979, -1842.1438]
+  Direction: [-0.0882380456, -0.113207452, 0.989645481]
+  Yaw: 95.0950928
+  Pitch: -6.50024462
+  LastMouseX: 2251
+  LastMouseY: 1083
+EnvironmentMap:
+  PosXPath: Extern\assets\textures\nightbox\nightbox_back6.png
+  NegXPath: Extern\assets\textures\nightbox\nightbox_front5.png
+  PosYPath: Extern\assets\textures\nightbox\nightbox_top3.png
+  NegYPath: Extern\assets\textures\nightbox\nightbox_bottom4.png
+  PosZPath: Extern\assets\textures\nightbox\nightbox_left2.png
+  NegZPath: Extern\assets\textures\nightbox\nightbox_right1.png
+  MipMaps: false
+  Seamless: false
+  MeshPath: Extern\assets\models\Isosphere_Smooth_Inverted_Normals_for_SkyBox.ply
+Lights:
+  - Index: 0
+    Position: [0, 0, 0, 1]
+    Diffuse: [1, 1, 1, 1]
+    Specular: [1, 1, 1, 1]
+    Attenuation: [0, 0.100000001, 0.00999999978, 100000]
+    Direction: [0.200000003, -0.800000012, 0, 0]
+    LightType: DIRECTIONAL
+    OuterAngle: 0
+    InnerAngle: 0
+    State: true
+Meshes:
+  - UUID: 5972443153127853609
+    Name: ShipHull
+    Path: Extern\assets\models\ShipHull.obj
+    ParentPosition: [-4.37113897e-07, 0, -10]
+    ParentOrientation: [1.5, 0, 0]
+    ParentScale: [100, 100, 100]
+    Submeshes:
+      - SubmeshPath: Extern\assets\models\Engine-FRR.obj
+        SubmeshName: Engine-FRR
+        GameObjectName: EFRR
+        Position: [-0.579999983, 0.899999976, -0.0599999987]
+        Orientation: [-1.60000002, 0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ShipHull
+        GameObjectName: Name10532084544743973691
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 3.27999997
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshPath: Extern\assets\models\Engine-BKL.obj
+        SubmeshName: Engine-BKL
+        GameObjectName: EBKL
+        Position: [0.589999974, -1.63999999, -0.230000004]
+        Orientation: [-1.60000002, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshPath: Extern\assets\models\CargoDoor.obj
+        SubmeshName: CargoDoor
+        GameObjectName: CargoDoor
+        Position: [0.00999999978, -0.839999974, 0.660000026]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshPath: Extern\assets\models\Engine-FRL.obj
+        SubmeshName: Engine-FRL
+        GameObjectName: EFRL
+        Position: [0.579999983, 0.899999976, -0.0599999987]
+        Orientation: [-1.60000002, 0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshPath: Extern\assets\models\Engine-BKR.obj
+        SubmeshName: Engine-BKR
+        GameObjectName: EBKR
+        Position: [-0.579999983, -1.63999999, -0.239999995]
+        Orientation: [-1.60000002, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 600610670708043094
+    Name: Jet1
+    Path: Extern\assets\models\fighter.obj
+    ParentPosition: [-18.3040009, -41.9515533, -5.81799984]
+    ParentOrientation: [0, 3.11999989, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: SC_Fighter_Main_Hull_Cube.006
+        GameObjectName: Name1655417873225798373
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Right_Cube.007
+        GameObjectName: Name3973388108830803880
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_R01_Cube.010
+        GameObjectName: Name3128396463381438549
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_L01_Cube.009
+        GameObjectName: Name10025393213780070047
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_02_Cube.008
+        GameObjectName: Name8106680988301470352
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Left__Cube.002
+        GameObjectName: Name14004166503471765491
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_01_Cube.003
+        GameObjectName: Name11714198947317933911
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 8256142248940228432
+    Name: Jet2
+    Path: Extern\assets\models\fighter.obj
+    ParentPosition: [19.6959991, -41.9515533, -56.8180008]
+    ParentOrientation: [0, 3.11999989, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: SC_Fighter_Main_Hull_Cube.006
+        GameObjectName: Name11502796575676510483
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Right_Cube.007
+        GameObjectName: Name1572276861503613417
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_R01_Cube.010
+        GameObjectName: Name11392596991704265049
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_L01_Cube.009
+        GameObjectName: Name6257970226115164896
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_02_Cube.008
+        GameObjectName: Name1010973545968837726
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Left__Cube.002
+        GameObjectName: Name18094312944837884851
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_01_Cube.003
+        GameObjectName: Name11516959988294464371
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 5443521029191770888
+    Name: Jet3
+    Path: Extern\assets\models\fighter.obj
+    ParentPosition: [1.69599998, -41.9515533, -56.8180008]
+    ParentOrientation: [0, 3.11999989, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: SC_Fighter_Main_Hull_Cube.006
+        GameObjectName: Name11447871889661075297
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Right_Cube.007
+        GameObjectName: Name14724302071843609069
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_R01_Cube.010
+        GameObjectName: Name5380074582278182139
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_L01_Cube.009
+        GameObjectName: Name2488368720706922403
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_02_Cube.008
+        GameObjectName: Name8508076818592353874
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Left__Cube.002
+        GameObjectName: Name14655403626057910930
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_01_Cube.003
+        GameObjectName: Name13645376909465698839
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 8420404502364327756
+    Name: Jet4
+    Path: Extern\assets\models\fighter.obj
+    ParentPosition: [-17.3040009, -41.9515533, -56.8180008]
+    ParentOrientation: [0, 3.11999989, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: SC_Fighter_Main_Hull_Cube.006
+        GameObjectName: Name9544780636758492548
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Right_Cube.007
+        GameObjectName: Name10754189459793626954
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_R01_Cube.010
+        GameObjectName: Name8968680240239020742
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_L01_Cube.009
+        GameObjectName: Name14301092687066733305
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_02_Cube.008
+        GameObjectName: Name2354598640660719830
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Left__Cube.002
+        GameObjectName: Name17661768567792130675
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_01_Cube.003
+        GameObjectName: Name8039064177441093936
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 7031486048250947137
+    Name: Jet5
+    Path: Extern\assets\models\fighter.obj
+    ParentPosition: [-17.3040009, -41.9515533, -28.8180008]
+    ParentOrientation: [0, 3.11999989, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: SC_Fighter_Main_Hull_Cube.006
+        GameObjectName: Name17322019895257083303
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Right_Cube.007
+        GameObjectName: Name6212294200142617410
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_R01_Cube.010
+        GameObjectName: Name12688705955292506708
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_L01_Cube.009
+        GameObjectName: Name17677240831355046555
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_02_Cube.008
+        GameObjectName: Name12031887374663966234
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Left__Cube.002
+        GameObjectName: Name17902522573741685397
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_01_Cube.003
+        GameObjectName: Name441851286320781432
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 941864578160459258
+    Name: Jet6
+    Path: Extern\assets\models\fighter.obj
+    ParentPosition: [0.69599998, -41.9515533, -28.8180008]
+    ParentOrientation: [0, 3.11999989, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: SC_Fighter_Main_Hull_Cube.006
+        GameObjectName: Name15630202863403202269
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Right_Cube.007
+        GameObjectName: Name974169079127054029
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_R01_Cube.010
+        GameObjectName: Name1004959473895999558
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_L01_Cube.009
+        GameObjectName: Name9705711947639275419
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_02_Cube.008
+        GameObjectName: Name13461706487254621810
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Left__Cube.002
+        GameObjectName: Name3033003181405174604
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_01_Cube.003
+        GameObjectName: Name1439811194944404394
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 4726943391718189142
+    Name: Jet7
+    Path: Extern\assets\models\fighter.obj
+    ParentPosition: [18.6959991, -41.9515533, -28.8180008]
+    ParentOrientation: [0, 3.11999989, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: SC_Fighter_Main_Hull_Cube.006
+        GameObjectName: Name14883965038454390992
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Right_Cube.007
+        GameObjectName: Name1589810655962804873
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_R01_Cube.010
+        GameObjectName: Name11081951781219000191
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_L01_Cube.009
+        GameObjectName: Name15680356039678917048
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_02_Cube.008
+        GameObjectName: Name16821458833175232690
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Left__Cube.002
+        GameObjectName: Name7504701303017166976
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_01_Cube.003
+        GameObjectName: Name6172984984005149929
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 1199394766960183492
+    Name: Jet8
+    Path: Extern\assets\models\fighter.obj
+    ParentPosition: [18.6959991, -41.9515533, -5.81799984]
+    ParentOrientation: [0, 3.11999989, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: SC_Fighter_Main_Hull_Cube.006
+        GameObjectName: Name13179903892442701818
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Right_Cube.007
+        GameObjectName: Name11973880363255370635
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_R01_Cube.010
+        GameObjectName: Name2810447371831477246
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_L01_Cube.009
+        GameObjectName: Name8001735437858550788
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_02_Cube.008
+        GameObjectName: Name14298425209515941402
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Left__Cube.002
+        GameObjectName: Name18359514174310773497
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_01_Cube.003
+        GameObjectName: Name8344546672111866421
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 15218886300904862827
+    Name: Jet9
+    Path: Extern\assets\models\fighter.obj
+    ParentPosition: [-0.30399999, -41.9515533, -5.81799984]
+    ParentOrientation: [0, 3.11999989, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: SC_Fighter_Main_Hull_Cube.006
+        GameObjectName: Name4769181995240675363
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Right_Cube.007
+        GameObjectName: Name16135941783369008718
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_R01_Cube.010
+        GameObjectName: Name5196102167445624997
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: Top_Wing_L01_Cube.009
+        GameObjectName: Name11492488119600851454
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_02_Cube.008
+        GameObjectName: Name15084653465781064685
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: SC_Star_Drive_N2_type_Left__Cube.002
+        GameObjectName: Name8805461075658486865
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+      - SubmeshName: ARMwing_Left_01_Cube.003
+        GameObjectName: Name15918156538953911247
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\silver.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 5227953639445872319
+    Name: Ship1
+    Path: Extern\assets\models\mod-fighter_xyz_n_rgba_uv.ply
+    ParentPosition: [457.097992, -104.209, 604.83197]
+    ParentOrientation: [0, -0.0299999993, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: ""
+        GameObjectName: Name4158384849894819988
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 5422888255609522607
+    Name: Ship2
+    Path: Extern\assets\models\mod-fighter_xyz_n_rgba_uv.ply
+    ParentPosition: [-387.902008, -104.209, -667.16803]
+    ParentOrientation: [0, -0.0299999993, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: ""
+        GameObjectName: Name13023042296520451731
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 13544716630463327604
+    Name: Ship3
+    Path: Extern\assets\models\mod-fighter_xyz_n_rgba_uv.ply
+    ParentPosition: [325.097992, -104.209, -667.16803]
+    ParentOrientation: [0, -0.0299999993, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: ""
+        GameObjectName: Name8240089594067204788
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+  - UUID: 2202014295282534493
+    Name: Ship4
+    Path: Extern\assets\models\mod-fighter_xyz_n_rgba_uv.ply
+    ParentPosition: [-539.901978, -104.209, 604.83197]
+    ParentOrientation: [0, -0.610000014, 0]
+    ParentScale: [1, 1, 1]
+    Submeshes:
+      - SubmeshName: ""
+        GameObjectName: Name17172477210026237750
+        Position: [0, 0, 0]
+        Orientation: [0, -0, 0]
+        Scale: [1, 1, 1]
+        AlphaTransparency: 1
+        Textures:
+          - TextureType: Diffuse
+            Path: Extern\assets\textures\ship_metal.jpg
+            Ratio: 1
+            TexCoordScale: 1
+            FilterType: Linear
+            WrapType: Clamp
+            GenMipMaps: true
+BoundingBoxes:
+  - Name: ArrivalArea
+    Min: [-1000, -1000, -1000]
+    Max: [1000, 1000, 1000]
+    Position: [-287.707642, -30.1783314, 5938.01416]
+    Orientation: [0, 0, 0]
